@@ -13,3 +13,64 @@
     font-style: normal;
     font-display: swap;
 }
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.leftside {
+    flex: 1 0 0;
+    width: auto;
+    height: 100vh;
+    background: center/150% url('img/halie-west-25xggax4bSA-unsplash.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightside {
+    flex: 2 0 0;
+    width: auto;
+    height: 100vh;
+    background-color: gray;
+}
+
+.logo {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 300px 0 0 0;
+}
+
+h1 {
+    color: white;
+    font-family: Norse;
+    margin: 0;
+}
+
+
+img {
+    width: 100px;
+    height: 140px;
+}
+
+h1 {
+    font-size: 120px;
+
+}
+
+p, a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
