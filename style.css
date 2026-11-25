@@ -47,7 +47,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 300px 0 0 0;
+    margin: 40% 0 0 0;
 }
 
 h1 {
@@ -73,4 +73,134 @@ p, a {
     font-size: 14px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #F9FAFB;
+}
 
+form div {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+form > div:nth-child(2){
+    background-color: #FFF;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+form div p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+form div:first-child {
+    margin: 10% 20% 0 4%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    margin: 10px 10px 10px 0;
+    gap: 2px;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 0px 40px 5%;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #383939;
+    letter-spacing: 1.2px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+#left-inputs, #right-inputs{
+    flex: 1;
+    margin: 0;
+    width: 260px;
+}
+
+input {
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    height: 30px;
+    padding: 0px 0px 0px 7px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:invalid {
+    border: 1px solid rgb(194, 2, 2);
+}
+
+#footer {
+    margin: 3% 0 0 5%;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#footer p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#footer a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 600;
+}
